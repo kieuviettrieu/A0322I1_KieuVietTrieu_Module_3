@@ -1,0 +1,187 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#head{
+    width: 95%;
+    top: 0;
+    padding: 3px;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+}
+
+
+#head ul li,#head div img{
+    float: left;
+    display: inline;
+    padding-bottom: 15px;
+}
+
+#head div img{
+    padding-top: -15px;
+}
+
+#head ul li{
+    margin-left: 35px;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.head_right{
+    margin-right: 70px;
+}
+
+.head_right div{
+    float: right;
+    margin-right: 35px;
+}
+
+#main-2{
+    margin-top: 100px;
+    clear: both;
+}
+
+#main-2 div ul li{
+    position: relative;
+    list-style-type: none;
+    display: inline;
+    margin-left: 35px;
+    left: 35%;
+}
+
+#main-2 div ul li a{
+    color: black;
+    text-decoration: none;
+    width: 80px;
+    font-weight: bold;
+}
+
+#main-5, #main-3{
+    margin-top: 130px;
+    clear: both;
+}
+
+.main-3-1{
+    float: left;
+    width: 330px;
+    height: 204px;
+    display: block;
+    height: auto;
+    margin-right: 70px;
+    position: relative;
+}
+
+.main-3-1 img{
+    width: 376px;
+}
+
+.mgr-0{
+    margin-right: 0px;
+}
+
+#main-3 div div, #main-5 div div div{
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+
+#main-4
+{
+    clear: both;
+    position: relative;
+    padding-top: 70px;
+}
+
+.center{
+    text-align: center;
+}
+
+#main-5{
+    padding-top: 0px;
+}
+
+#div-span-dn{
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+
+#div-span-dn span{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#img-fb{
+    margin-left: 12px;
+    margin-top: -2px;
+    width: 26px;
+    height: 26px;
+}
+
+#main-6{
+    clear: both;
+    position: relative;
+    padding-top: 80px;
+}
+
+#main-6 div{
+    float: left;
+}
+
+#main-6 div span{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0,0,0,.6);
+}
+
+#main-7{
+    clear: both;
+    width: 100%;
+    height: 625px;
+    margin-top: 70px;
+    background-color: #f1e6fa8c;
+}
+
+
+.col2-1{
+    padding-top: 50px;
+}
+
+.col2-1 ul li{
+    margin-top: 10px;
+}
+
+.can-left{
+    width: 80%;
+    position: relative;
+    padding-top: 50px;
+    left: 5%;
+    float: left;
+}
+
+.can-left-1{
+    float: left;
+}
+
+
+.ul-li-inline li{
+    display: inline;
+    list-style-type: none;
+    font-size: 11px;
+    margin-right: 40px;
+    color: #616161;;
+}
+
+.mgr-40{
+    margin: 0px !important;
+}
+
+.mgr-right{
+    padding-right: 355px;
+}
