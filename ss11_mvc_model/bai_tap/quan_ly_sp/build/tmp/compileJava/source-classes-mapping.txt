@@ -1,0 +1,8 @@
+com/example/quan_ly_sp/model/Product.java
+ com.example.quan_ly_sp.model.Product
+com/example/quan_ly_sp/service/ProductService.java
+ com.example.quan_ly_sp.service.ProductService
+com/example/quan_ly_sp/service/ProductServiceImpl.java
+ com.example.quan_ly_sp.service.ProductServiceImpl
+com/example/quan_ly_sp/controller/ProductServlet.java
+ com.example.quan_ly_sp.controller.ProductServlet

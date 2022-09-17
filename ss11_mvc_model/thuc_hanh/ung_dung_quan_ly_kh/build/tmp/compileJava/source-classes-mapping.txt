@@ -1,0 +1,8 @@
+com/example/ung_dung_quan_ly_kh/model/Customer.java
+ com.example.ung_dung_quan_ly_kh.model.Customer
+com/example/ung_dung_quan_ly_kh/service/CustomerServiceImpl.java
+ com.example.ung_dung_quan_ly_kh.service.CustomerServiceImpl
+com/example/ung_dung_quan_ly_kh/service/CustomerService.java
+ com.example.ung_dung_quan_ly_kh.service.CustomerService
+com/example/ung_dung_quan_ly_kh/controller/CustomerServlet.java
+ com.example.ung_dung_quan_ly_kh.controller.CustomerServlet
