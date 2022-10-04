@@ -1,0 +1,89 @@
+#header{
+    z-index: 5;
+    border: solid 1px;
+    width: 98.7%;
+    height: 132px;
+    position: fixed;
+    background-color: whitesmoke;
+}
+
+.logo{
+    width: 13%;
+}
+
+#header div{
+    float: left;
+}
+
+.margin-left{
+    margin-left: 15%;
+    margin-top: 1.5%;
+}
+
+#header div button, .logo{
+    display: inline;
+}
+
+#menu{
+    z-index: 5;
+    border: solid 1px;
+    width: 98.7%;
+    height: 60px;
+    position: fixed;
+    top: 133px;
+    background-color: silver;
+}
+
+
+#body_left{
+    border: solid 1px;
+    float: left;
+    width: 16.5%;
+    height: 100%;
+    top: 194px;
+    position: relative;
+    z-index: 2;
+}
+
+#body_right{
+    border: solid 1px;
+    float: left;
+    width: 83.2%;
+    height: 100%;
+    top: 194px;
+    position: relative;
+    z-index: 2;
+}
+
+#bostom{
+    border: solid 1px;
+    width: 99.85%;
+    height: 100px;
+    position: relative;
+    clear: both;
+    top: 194px;
+}
+
+#menu ul li, .menu-search{
+    display: inline;
+    margin-right: 97px;
+}
+
+.menu-search{
+    margin-left: 5.5%;
+}
+
+#menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.css-a{
+    color: black;
+    text-decoration: none;
+}
+
+#margin-left-145{
+    margin-left: 145px;
+}
+

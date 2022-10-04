@@ -80,7 +80,7 @@ customer_type_name varchar(45)
 );
 
 create table customer(
-customer_id int primary key,
+customer_id varchar(15) primary key,
 customer_type_id int,
 customer_name varchar(45),
 customer_birthday Date,
@@ -120,7 +120,7 @@ contract_end_date datetime,
 contract_deposit double,
 contract_total_money double,
 employee_id int,
-customer_id int,
+customer_id varchar(15),
 service_id int,
 
 constraint ct_employee_id foreign key (employee_id) REFERENCES employee(employee_id),
