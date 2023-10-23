@@ -75,3 +75,6 @@ INSERT INTO `furama_resort_manager`.`contract` (`contract_id`, `contract_start_d
 INSERT INTO `furama_resort_manager`.`contract` (`contract_id`, `contract_start_date`, `contract_end_date`, `contract_deposit`, `contract_total_money`, `employee_id`, `customer_id`, `service_id`) VALUES ('10', '2021-04-12', '2021-04-14', '0', '1500000', 'NV-1010', 'KH-1003', 'DV-1005');
 INSERT INTO `furama_resort_manager`.`contract` (`contract_id`, `contract_start_date`, `contract_end_date`, `contract_deposit`, `contract_total_money`, `employee_id`, `customer_id`, `service_id`) VALUES ('11', '2021-04-25', '2021-04-25', '0', '5000000', 'NV-1002', 'KH-1002', 'DV-1001');
 INSERT INTO `furama_resort_manager`.`contract` (`contract_id`, `contract_start_date`, `contract_end_date`, `contract_deposit`, `contract_total_money`, `employee_id`, `customer_id`, `service_id`) VALUES ('12', '2021-05-25', '2021-05-27', '0', '1500000', 'NV-1007', 'KH-1010', 'DV-1001');
+
+select `customer_id`, `customer_type_id`, `customer_name`, `customer_birthday`, `customer_gender`, `customer_id_card`, `customer_phone`, `customer_email`, `customer_address`
+from customer join contract using(customer_id) group by customer_id;

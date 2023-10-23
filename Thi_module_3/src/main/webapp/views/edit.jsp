@@ -1,0 +1,93 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+  <title>Furama resort</title>
+  <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+<div style="top: -8px; position: relative">
+  <div id="header">
+    <div>
+      <img class="logo" src="http://static.ybox.vn/2020/9/2/1600775672450-icon_1024x1024.png">
+    </div>
+    <div class="margin-left">
+      <button>Login</button>
+      <button>Register</button>
+    </div>
+  </div>
+  <div id="menu"></div>
+
+  <div>
+    <div id="body_left"></div>
+
+    <div id="body_right">
+      <div>
+
+        <a href="/controller?action=list">Back to</a>
+        <br><br>
+        <c:if test="${result==0}">
+          <h4 style="color: red">Unsuccessful!</h4>
+        </c:if>
+
+
+        <form method="post">
+          <fieldset>
+            <legend>Edit information</legend>
+            <table>
+              <tr>
+                <td>ID: </td>
+                <td><input type="text" name="customer_id" class="customer_id"  value="${customer.getCustomer_id()}"></td>
+              </tr>
+              <tr>
+                <td>Name: </td>
+                <td><input type="text" name="customer_name" id="customer_name" value="${customer.getCustomer_name()}"></td>
+              </tr>
+              <tr>
+                <td>Birthday: </td>
+                <td><input type="date" name="customer_birthday" id="customer_birthday" value="${customer.getCustomer_birthday()}"></td>
+              </tr>
+              <tr>
+                <td>Gender: </td>
+                <td>
+                  <select name="customer_gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>ID Card: </td>
+                <td><input type="number" name="customer_id_card" id="customer_id_card" value="${customer.getCustomer_id_card()}"></td>
+              </tr>
+              <tr>
+                <td>Phone number: </td>
+                <td><input type="text" name="customer_phone" id="customer_phone" value="${customer.getCustomer_phone()}"></td>
+              </tr>
+              <tr>
+                <td>Email: </td>
+                <td><input type="text" name="customer_email" id="customer_email" value="${customer.getCustomer_email()}"></td>
+              </tr>
+              <tr>
+                <td>Customer Type ID: </td>
+                <td><input type="number" name="customer_type_id" id="customer_type_id" value="${customer.getCustomer_type_id()}"></td>
+              </tr>
+              <tr>
+                <td>Address: </td>
+                <td><input type="text" name="customer_address" id="customer_address" value="${customer.getCustomer_address()}"></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Save"></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div id="bostom"></div>
+  </div>
+</div>
+</body>
+</html>
